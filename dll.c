@@ -58,7 +58,6 @@ void insertAfter(struct DLL **list,struct DLL *node,float newValue){
 			new->next=remain; // new's next is remain which is list's next
 			if (remain!=NULL) // remain which is list's next is not empty
 			{
-				/* code */
 			remain->prev=new; // remain's  prev is new node with value of newValue
 
 			}
